@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gallery", "Gallery.csproj", "{A692D30F-5C38-B468-8D41-1F35F5F68363}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gallery.Editor", "Gallery.Editor.csproj", "{80BA3E79-F716-25B6-194B-69F8DFF86454}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A692D30F-5C38-B468-8D41-1F35F5F68363}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A692D30F-5C38-B468-8D41-1F35F5F68363}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A692D30F-5C38-B468-8D41-1F35F5F68363}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A692D30F-5C38-B468-8D41-1F35F5F68363}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80BA3E79-F716-25B6-194B-69F8DFF86454}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80BA3E79-F716-25B6-194B-69F8DFF86454}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80BA3E79-F716-25B6-194B-69F8DFF86454}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80BA3E79-F716-25B6-194B-69F8DFF86454}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
