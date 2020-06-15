@@ -24,7 +24,15 @@ public class ZoomToGalleryTwo : MonoBehaviour {
         camAnimater.SetTrigger("Gallery2");
         camAnimater.speed = 1.0f;
         Invoke("TransCam", 2f);
+    }
 
+    public void Click()
+    {
+        
+        camera.SetActive(true);
+        gallery2cam.SetActive(false);
+        camera.transform.Translate(new Vector3(0, 61.6f, 0));
+        camera.transform.Rotate(new Vector3(180, 0, 0));
     }
 
     // Use this for initialization
